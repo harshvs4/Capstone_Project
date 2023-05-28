@@ -5,8 +5,8 @@ from pathlib import Path
 import shutil
 import cv2
 
-from annotator.util import resize_image, HWC3
-from annotator.canny import CannyDetector
+from annotater.util import resize_image, HWC3
+from annotater.canny import CannyDetector
 
 from caption.blip import BlipCaption
 
