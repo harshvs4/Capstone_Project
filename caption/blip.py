@@ -2,7 +2,7 @@ from PIL import Image
 import torch
 from torchvision import transforms
 from torchvision.transforms.functional import InterpolationMode
-from captioner.models.blip import blip_decoder
+from caption.models.blip import blip_decoder
 
 
 class BlipCaption():
