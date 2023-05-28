@@ -8,7 +8,7 @@ import cv2
 from annotator.util import resize_image, HWC3
 from annotator.canny import CannyDetector
 
-from captioner.blip_caption import BlipCaption
+from caption.blip import BlipCaption
 
 
 def get_images(path, image_path='images'):
